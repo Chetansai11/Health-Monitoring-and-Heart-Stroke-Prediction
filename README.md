@@ -32,7 +32,7 @@ The IoT system uses the ESP8266 module to collect data from connected sensors:
 
 Below is a sample circuit design for the IoT setup:  
 
-![Circuit Design]([path_to_circuit_image.jpg](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/circuit.png))  
+![Circuit Design](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/circuit.png)
 *Figure 1: Circuit diagram featuring ESP8266, pulse oximeter, and blood pressure monitor integration.*  
 
 ---
@@ -41,7 +41,7 @@ Below is a sample circuit design for the IoT setup:
 
 A user-friendly web interface was designed to display real-time health data and cardiac disease predictions.  
 
-![Website Interface]([path_to_website_image.jpg](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/website%20layout.png))  
+![Website Interface](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/website%20layout.png)
 *Figure 2: Screenshot of the sample website showing health data and prediction results.*  
 
 ---
