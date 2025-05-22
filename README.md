@@ -1,73 +1,95 @@
-# Health-Monitoring-and-Heart-Stroke-Prediction
+# ❤️ Health Monitoring and Heart Stroke Prediction using IoT & Machine Learning
 
-## Project Overview  
-
-This project focuses on utilizing machine learning techniques to analyze health data and predict cardiac diseases with high accuracy. The system integrates IoT-enabled devices, including ESP8266 modules, pulse oximeters, and blood pressure monitors, to collect real-time health data. Predictive models trained on authentic datasets ensure reliable predictions of cardiac events.  
-
-## Key Features  
-
-- **Real-Time Data Collection**: Integrated IoT-enabled ESP8266 module with pulse oximeters and blood pressure monitors to collect live health data.  
-- **Machine Learning Models**: Applied algorithms such as Regression, Decision Trees, SVM, and Random Forest for cardiac disease prediction.  
-- **Accurate Predictions**: Achieved high accuracy in predicting cardiac events through rigorous training and validation of predictive models.  
-- **User Interface**: Developed a sample website to display collected health data and prediction results.  
+A real-time health monitoring system that integrates **IoT sensors** with **machine learning algorithms** to predict cardiac diseases and stroke risk. This end-to-end project demonstrates the fusion of embedded systems, real-time data acquisition, and predictive analytics to support proactive healthcare solutions.
 
 ---
 
-## System Architecture  
+## 🎯 Project Objective
 
-### IoT Device Integration  
-The IoT system uses the ESP8266 module to collect data from connected sensors:  
-- **Pulse Oximeter**: Measures oxygen saturation levels.  
-- **Blood Pressure Monitor**: Captures systolic and diastolic blood pressure readings.  
-
-### Data Flow  
-1. Sensors collect real-time health metrics.  
-2. ESP8266 transmits the data to a central server.  
-3. Machine learning models analyze the data and make predictions.  
-4. Results are displayed on a user-friendly web interface.  
+To design a scalable, real-time health monitoring platform that:
+- Collects physiological signals using IoT devices (ESP8266, pulse oximeter, BP monitor)
+- Transmits and visualizes data through a web interface
+- Applies ML models to predict potential cardiac events with high precision
 
 ---
 
-## Circuit Design  
+## 🔑 Key Features
 
-Below is a sample circuit design for the IoT setup:  
-
-![Circuit Design](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/circuit.png)
-*Figure 1: Circuit diagram featuring ESP8266, pulse oximeter, and blood pressure monitor integration.*  
-
----
-
-## Website Interface  
-
-A user-friendly web interface was designed to display real-time health data and cardiac disease predictions.  
-
-![Website Interface](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/website%20layout.png)
-*Figure 2: Screenshot of the sample website showing health data and prediction results.*  
+- 📡 **Real-Time IoT Integration**: Live data collected from pulse oximeters and blood pressure sensors using an ESP8266 module.
+- 🧠 **ML-Based Cardiac Prediction**: Trained multiple models (SVM, Random Forest, etc.) on real-world clinical datasets.
+- 🌐 **Web Interface**: Live dashboard displays health metrics and prediction outcomes.
+- ✅ **High Accuracy**: Achieved up to **96% accuracy** in predicting heart stroke likelihood.
 
 ---
 
-## Machine Learning Implementation  
+## 📶 System Architecture
 
-1. **Algorithms Used**:  
-   - Regression  
-   - Decision Trees  
-   - Support Vector Machines (SVM)  
-   - Random Forest  
+### 🔁 Data Pipeline
+1. 🩺 **Sensor Input**: Pulse oximeter & BP monitor capture real-time health stats
+2. 📲 **ESP8266 Transmission**: Sends data over WiFi to server
+3. 🧠 **ML Inference Engine**: Runs trained models to evaluate health risks
+4. 🖥️ **Web Interface**: Displays analytics and prediction results to users
 
-2. **Training and Validation**:  
-   - Data sourced from Health Associations archives.  
-   - Preprocessed and cleaned for optimal model performance.  
-   - Achieved high accuracy and robustness in predictions.  
-
-3. **Evaluation Metrics**:  
-   - Accuracy  
-   - Precision  
-   - Recall  
-   - F1-Score  
+![Circuit Design](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/circuit.png)  
+*Figure 1: ESP8266-based IoT hardware setup*
 
 ---
 
-## Results  
+## 🧠 Machine Learning Pipeline
 
-- **Accuracy**: The system achieved high accuracy 96% in predicting cardiac events, validated across diverse datasets.  
-- **Real-Time Monitoring**: Successfully collected and analyzed real-time health data with IoT integration.  
+| Step              | Details                                     |
+|-------------------|---------------------------------------------|
+| **Algorithms**     | Regression, Decision Tree, SVM, Random Forest |
+| **Dataset**        | Clinical health datasets from public archives |
+| **Preprocessing**  | Null removal, encoding, normalization        |
+| **Evaluation**     | Accuracy, Precision, Recall, F1-score        |
+
+📈 **Model Accuracy**: **96%** (Random Forest best performing)
+
+---
+
+## 💻 Web Dashboard
+
+Displays real-time sensor data and ML-predicted risk levels.
+
+![Website Interface](https://github.com/Chetansai11/Health-Monitoring-and-Heart-Stroke-Prediction/blob/main/website%20layout.png)  
+*Figure 2: Live data monitoring & cardiac risk output*
+
+---
+
+## 📊 Results
+
+| Feature                   | Outcome                              |
+|---------------------------|--------------------------------------|
+| Real-Time Monitoring      | ✅ Stable WiFi data flow via ESP8266 |
+| Prediction Accuracy       | ✅ Up to **96%** on test set         |
+| UI & Visualization        | ✅ Clear, minimal web dashboard       |
+| Sensor Integration        | ✅ Accurate data collection and sync  |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Languages**: Python, C++ (Arduino), HTML/CSS (Web)
+- **Libraries**: scikit-learn, pandas, NumPy, Flask, OpenCV (optional for UI)
+- **Hardware**: ESP8266, Pulse Oximeter, Blood Pressure Sensor, Breadboard
+- **Communication**: Serial & Wi-Fi using HTTP/UDP protocols
+
+---
+
+## 🧪 Future Enhancements
+
+- 🧠 Add deep learning models (LSTM/CNN) for time-series health trend analysis
+- 🛡️ Include emergency alert systems via SMS/email on threshold breach
+- ⚙️ Enhance sensor accuracy with medical-grade hardware
+- 📈 Deploy as a cloud-hosted platform with patient history tracking
+
+---
+
+## 📬 Contact
+
+**Chetan Sai Borra**  
+📧 sai311235@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/chetan-sai-16a252251/)
+
+> *A practical application of AI + IoT for early cardiac intervention and remote patient monitoring—bridging the gap between wearable data and real-time clinical insight.*
